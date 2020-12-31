@@ -1,0 +1,117 @@
+/*********************************************
+                General Styles
+**********************************************/
+*{
+    box-sizing: border-box;
+}
+
+body {
+   /* background: grey; */
+    height: 100vh;
+    margin: 0;
+}
+
+
+/*********************************************
+            Navigation From W3
+**********************************************/
+
+/* Remove margins and padding from the list, and add a black background color */
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ebeef4;
+}
+
+/* Float the list items side by side */
+
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+
+ul.topnav li a {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+
+ul.topnav li a:hover {background-color:firebrick;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+
+ul.topnav li.icon {display: none;}
+
+/*********************************************
+                Background Image
+**********************************************/
+
+header {
+    background-image: url("http://www.albanylawvoting.byethost10.com/VotingPage/flag.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin:0;
+}
+
+/*********************************************
+                Form
+**********************************************/
+
+form {
+    width: 400px;
+    max-width: 100%;
+    margin:  20px auto;
+    background-color:rgba(72,72,72,0.6);
+    color: white;
+    line-height: 1.5;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.basicForm {
+    padding: 0;
+    margin: 0;
+}
+
+input,
+textarea,
+label {
+    width: 300px;
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 3px;
+    line-height: 2;
+    padding-left: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+button {
+    width: 75px;
+    display: block;
+    margin: 15px 0 10px 50px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+form span {
+    display: block;
+    margin: 10px 0 10px 48px;
+}
+
+#errors {
+    color: #ff7c7c;
+}
+
